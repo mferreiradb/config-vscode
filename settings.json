@@ -30,7 +30,6 @@
     "comments": "#00ffff"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": -1,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -48,5 +47,11 @@
   "prettier.semi": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   }
 }
