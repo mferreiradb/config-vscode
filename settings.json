@@ -1,57 +1,79 @@
 {
-  "liveServer.settings.donotShowInfoMsg": true,
-  "diffEditor.wordWrap": "on",
-  "editor.fontSize": 15,
-  "workbench.startupEditor": "none",
-  "debug.disassemblyView.showSourceCode": false,
-  "liveServer.settings.donotVerifyTags": true,
-  "editor.quickSuggestions": {
-    "other": "on",
-    "strings": "off"
-  },
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
-  "kite.showWelcomeNotificationOnStartup": false,
-  "eslint.format.enable": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "debug.console.lineHeight": 1.5,
-  "terminal.integrated.fontSize": 18,
-  "terminal.integrated.profiles.windows": {
-    "Git Bash": {
-      "source": "Git Bash"
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.lineHeight": 1.5,
-  "editor.tokenColorCustomizations": {
-    "comments": "#00ffff"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "[dart]": {
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.wordWrap": "on",
+    "editor.fontSize": 15,
+    "workbench.startupEditor": "none",
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "strings": "off"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Omni",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "eslint.format.enable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "debug.console.lineHeight": 1.5,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.lineHeight": 1.5,
+    "editor.tokenColorCustomizations": {
+        "comments": "#00ffff"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.enable": true,
+    "prettier.singleQuote": false,
+    "prettier.tabWidth": 2,
+    "prettier.semi": false,
+    "editor.codeActionsOnSave": {
+    
+        "source.fixAll": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.eol": "\n",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "editor.rulers": [80],
-    "editor.selectionHighlight": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggestSelection": "first",
-    "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.enable": true,
-  "prettier.singleQuote": false,
-  "prettier.tabWidth": 2,
-  "prettier.semi": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+    "redhat.telemetry.enabled": false,
+    "window.zoomLevel": -1,
+    "debug.disassemblyView.showSourceCode": false
 }
